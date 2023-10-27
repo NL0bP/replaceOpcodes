@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="145" Width="970">
+    <Grid>
+        <Button x:Name="button" IsEnabled ="false" Content="Replace Opcodes" HorizontalAlignment="Left" Height="57" Margin="788,21,0,0" VerticalAlignment="Top" Width="139" Click="Button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="97,22,0,0" TextWrapping="Wrap" Text="Select a file with new opcodes..." VerticalAlignment="Top" Width="652"/>
+        <Label x:Name="label" Content="Input" HorizontalAlignment="Left" Margin="40,21,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="textBox_2" HorizontalAlignment="Left" Height="23" Margin="97,55,0,0" TextWrapping="Wrap" Text="Select the Rules file with the old opcodes that need to be replaced..." VerticalAlignment="Top" Width="652"/>
+        <Label x:Name="label_2" Content="Output" HorizontalAlignment="Left" Margin="40,52,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="..." HorizontalAlignment="Left" Height="23" Margin="754,22,0,0" VerticalAlignment="Top" Width="17" Click="Button1_Click"/>
+        <Button x:Name="button2" Content="..." HorizontalAlignment="Left" Height="23" Margin="754,55,0,0" VerticalAlignment="Top" Width="17" Click="Button2_Click"/>
+    </Grid>
+</Window>
